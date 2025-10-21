@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Donate - Helping Hands Foundation</title>
+  <link rel="stylesheet" href="hdonation.css">
+
+</head>
+<body>
+
+  <header>
+    <h1>Donate to Helping Hands Foundation</h1>
+    <nav>
+      <ul>
+        <li><a href="hh.html">Home</a></li>
+        <li><a href="#why-donate">Why Donate?</a></li>
+        <li><a href="#donation-form">Make a Donation</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="why-donate">
+    <h2>Why Your Donation Matters</h2>
+    <p>Helping Hands Foundation relies on generous supporters like you to fund our initiatives in education, healthcare, and community development.</p>
+    <p>Every donation goes directly to programs that create lasting change in the lives of underprivileged individuals.</p>
+  </section>
+
+  <section id="donation-form">
+    <h2>Make a Donation</h2>
+    <form action="#" method="post">
+      <fieldset>
+        <legend>Choose Donation Amount</legend>
+        <input type="radio" id="amount1" name="amount" value="500">
+        <label for="amount1">₹500</label><br>
+
+        <input type="radio" id="amount2" name="amount" value="1000">
+        <label for="amount2">₹1000</label><br>
+
+        <input type="radio" id="amount3" name="amount" value="2500">
+        <label for="amount3">₹2500</label><br>
+
+        <input type="radio" id="amount4" name="amount" value="custom">
+        <label for="amount4">Other Amount:</label>
+        <input type="number" name="customAmount" placeholder="Enter amount"><br>
+      </fieldset>
+
+      <fieldset>
+        <legend>Your Information</legend>
+        <label for="name">Full Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Email Address:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="phone">Phone Number:</label><br>
+        <input type="tel" id="phone" name="phone"><br><br>
+
+        <label for="message">Message (Optional):</label><br>
+        <textarea id="message" name="message" rows="4" cols="40"></textarea><br><br>
+      </fieldset>
+
+      <fieldset>
+        <legend>Payment Method</legend>
+        <input type="radio" id="upi" name="payment" value="UPI" required>
+        <label for="upi">UPI</label><br>
+
+        <input type="radio" id="card" name="payment" value="Card">
+        <label for="card">Credit/Debit Card</label><br>
+
+        <input type="radio" id="netbanking" name="payment" value="NetBanking">
+        <label for="netbanking">Net Banking</label><br>
+      </fieldset>
+
+      <br>
+      <button type="submit">Donate Now</button>
+    </form>
+  </section>
+
+  <section id="contact">
+    <h2>Need Help?</h2>
+    <p>If you have any questions or face issues while donating, please reach out to us:</p>
+    <p>Email:helpinghands@gmail.com</p>
+    <p>Phone: +91 7397505121</p>
+  </section>
+
+  <footer>
+    <p> 2025 Helping Hands Foundation. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>

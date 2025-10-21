@@ -1,0 +1,214 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  
+  background-image: url(h7.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  color: #333;
+  line-height: 1.6;
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  background-color: #004080;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+header h1 {
+  margin-bottom: 10px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  padding: 0;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 8px 12px;
+  transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+  background-color: #003366;
+  border-radius: 4px;
+}
+
+
+.event-banner {
+  background: url('https://via.placeholder.com/1200x300') no-repeat center center/cover;
+  color: white;
+  text-align: center;
+  padding: 60px 20px;
+  background-color: #0055aa;
+}
+
+.event-banner h1 {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+}
+
+.event-banner p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.event-banner button {
+  background-color: #ffcc00;
+  border: none;
+  padding: 12px 24px;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #333;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.event-banner button:hover {
+  background-color: #e6b800;
+}
+
+
+section {
+  padding: 40px 20px;
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: #fff;
+  margin-top: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+section h2 {
+  color: #004080;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #004080;
+  padding-bottom: 5px;
+}
+
+.schedule-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+.schedule-table th,
+.schedule-table td {
+  border: 1px solid #ccc;
+  padding: 12px;
+  text-align: left;
+}
+
+.schedule-table th {
+  background-color: #004080;
+  color: white;
+}
+
+
+#speakers ul {
+  list-style: disc;
+  padding-left: 20px;
+  margin-top: 10px;
+}
+
+#speakers li {
+  margin-bottom: 10px;
+}
+
+
+form {
+  margin-top: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+form label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 6px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="tel"],
+form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1em;
+}
+
+form textarea {
+  resize: vertical;
+}
+
+form button[type="submit"] {
+  background-color: #004080;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  font-size: 1em;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+form button[type="submit"]:hover {
+  background-color: #003060;
+}
+
+
+.faq h3 {
+  margin-top: 20px;
+  color: #333;
+}
+
+.faq p {
+  margin-top: 5px;
+}
+
+
+#contact p {
+  margin: 8px 0;
+}
+
+footer {
+  background-color: #004080;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 40px;
+}
+
+@media (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+  }
+
+  .event-banner h1 {
+    font-size: 2rem;
+  }
+
+  .event-banner p {
+    font-size: 1rem;
+  }
+}
